@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 14px;
+    width: 384px;
+    height: 500px;
+}
+
+.modal-header {
+    border-bottom: 0.5px solid #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #02264a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-icon {
+    width: 40px;
+}
+
+#version {
+    font-size: 14px;
+    padding: 5px;
+}
+
+#navbar {
+    border-bottom: 0.5px solid #dadada;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+#backBtn {
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    border: 1.5px solid #02264a;
+    background-color: #378bdf;
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    min-width: 65px;
+    margin: 5px;
+}
+
+#backBtn:hover {
+    transform: scale(1.01);
+    background-color: #2e73b8;
+}
+
+#navbar h4 {
+    width: 60%;
+    text-align: center;
+}
+
+.delete {
+    outline: none;
+    border: 1.5px solid red;
+    background-color: rgb(231, 93, 93);
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    min-width: 65px;
+    margin: 5px;
+}
+
+.delete:hover {
+    transform: scale(1.01);
+    background-color: rgb(238, 66, 66);
+}
+
+.modal-notes {
+    display: inline-block;
+    overflow-y: scroll;
+    max-height: 372px;
+    width: 100%;
+}
+
+.modal-notes table {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#delete-msg {
+    color: rgb(231, 93, 93);
+    text-align: center;
+    margin: 5px 0;
+    display: none;
+}
+
+.note-title {
+    width: 80px;
+}
+
+.note-desc {
+    width: 200px;
+}
+
+.modal-notes th, td {
+    text-align: center;
+}
+
+.hidden-note {
+    display: none;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-note-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.full-note {
+    text-align: justify;
+    font-size: small;
+}
+
+.expand-btn {
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.expand-btn:hover {
+    background-color: #dadada;
+}

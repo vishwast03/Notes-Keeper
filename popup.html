@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes Keeper</title>
+  <link rel="stylesheet" href="./css/popup.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="modal-header">
+    <h1 class="logo">
+      <img src="./images/logo150.png" alt="Logo" class="logo-icon">
+      Notes Keeper <span id="version">(1.0.0)</span>
+    </h1>
+  </div>
+  <div class="modal-content">
+    <input type="text" name="note-title" id="note-title" placeholder="Title...">
+    <textarea name="note-text" id="note-text" cols="40" rows="15" placeholder="Start typing your notes..."></textarea>
+    <div id="actions">
+      <button class="button" id="save-btn">Save</button>
+      <a href="./allNotes.html" class="button" id="show-btn">Show All Notes</a>
+    </div>
+    <div id="success-msg">Saved Successfully!</div>
+  </div>
+  <script src="./js/popup.js"></script>
+</body>
+
+</html>
